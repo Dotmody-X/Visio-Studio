@@ -2,7 +2,7 @@
 
 Ce document présente l'ensemble des effets prévus pour implémentation dans VISIO STUDIO, organisés par catégories et avec des indications sur leur complexité et priorité de développement.
 
-## 🎛️ Effets de Dithering
+## Effets de Dithering
 
 Le dithering est une technique permettant de simuler des dégradés avec un nombre limité de couleurs, souvent utilisée dans l'esthétique rétro et lo-fi.
 
@@ -19,7 +19,7 @@ Le dithering est une technique permettant de simuler des dégradés avec un nomb
 | **Burkes** | Moyenne | Basse | Alternative plus rapide avec un rendu légèrement moins raffiné que Jarvis. |
 | **Lattice-Boltzmann** | Avancée | Basse | Technique expérimentale basée sur la simulation de fluides, pour des effets de dithering organiques. |
 
-## 🎨 Effets Visuels de Base
+## Effets Visuels de Base
 
 Ces effets constituent les fondations de la manipulation d'image et sont essentiels pour toute chaîne de traitement.
 
@@ -36,7 +36,7 @@ Ces effets constituent les fondations de la manipulation d'image et sont essenti
 | **Flou optimisé** | Moyenne | Basse | Version accélérée du flou gaussien pour les grands rayons. |
 | **Flou radial** | Moyenne | Moyenne | Flou circulaire autour d'un point, créant un effet de vitesse ou de zoom dynamique. |
 
-## 🖌️ Effets Artistiques Avancés
+## Effets Artistiques Avancés
 
 Inspirés des filtres créatifs de Photoshop, ces effets transforment radicalement le rendu visuel des images.
 
@@ -56,7 +56,7 @@ Inspirés des filtres créatifs de Photoshop, ces effets transforment radicaleme
 | **Plume calligraphique** | Moyenne | Moyenne | Transformation des traits en tracés calligraphiques sensibles à la pression. |
 | **Tampon** | Simple | Haute | Effet de cachet ou d'impression, idéal pour logos et signatures visuelles. |
 
-## 🧠 Modules IA et Génération
+## Modules IA et Génération
 
 Ces fonctionnalités avancées exploitent l'intelligence artificielle pour augmenter les capacités créatives.
 
@@ -69,7 +69,7 @@ Ces fonctionnalités avancées exploitent l'intelligence artificielle pour augme
 | **Assistant IA** | Avancée | Basse | Interface conversationnelle pour guider les utilisateurs et suggérer des techniques ou effets. |
 | **Apprentissage continu** | Très avancée | Basse | Système qui s'améliore en mémorisant les préférences utilisateur et les combinaisons d'effets réussies. |
 
-## 📋 Plan d'implémentation
+## Plan d'implémentation
 
 ### Phase 1: Fondations (Haute priorité)
 1. Effets de base: Noir et blanc, Contraste, Flou gaussien, Seuil
@@ -91,7 +91,7 @@ Ces fonctionnalités avancées exploitent l'intelligence artificielle pour augme
 2. Modules spécialisés (style cartoon, générateur de formes)
 3. Assistant IA et apprentissage continu
 
-## 🔄 Système de plugins
+## Système de plugins
 
 Chaque effet sera développé comme un plugin modulaire avec:
 - Interface utilisateur dédiée
