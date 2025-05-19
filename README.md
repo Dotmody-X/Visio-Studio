@@ -54,30 +54,30 @@ make -j4
 ##  Guide du développeur
 Structure du projet
 
-visio-studio/
-│
-├── CMakeLists.txt                  # Fichier de build principal
-├── README.md                       # Documentation principale
-│
-├── src/                            # Code source principal
-│   ├── core/                       # Moteur central
-│   ├── plugins/                    # Système de plugins
-│   ├── effects/                    # Effets visuels
-│   ├── ai/                         # Composants IA
-│   ├── ui/                         # Interface utilisateur
-│   └── utils/                      # Utilitaires
-│
-├── include/                        # En-têtes publics
-│   └── visio/                      # API publique
-│
-├── plugins/                        # Plugins intégrés
-│   ├── glitch/                     # Plugin Glitch
-│   ├── dithering/                  # Plugin Dithering
-│   └── ai_generator/               # Plugin Générateur IA
-│
-├── resources/                      # Ressources
-├── docs/                           # Documentation
-└── tests/                          # Tests unitaires
+    visio-studio/
+    │
+    ├── CMakeLists.txt                  # Fichier de build principal
+    ├── README.md                       # Documentation principale
+    │
+    ├── src/                            # Code source principal
+    │   ├── core/                       # Moteur central
+    │   ├── plugins/                    # Système de plugins
+    │   ├── effects/                    # Effets visuels
+    │   ├── ai/                         # Composants IA
+    │   ├── ui/                         # Interface utilisateur
+    │   └── utils/                      # Utilitaires
+    │
+    ├── include/                        # En-têtes publics
+    │   └── visio/                      # API publique
+    │
+    ├── plugins/                        # Plugins intégrés
+    │   ├── glitch/                     # Plugin Glitch
+    │   ├── dithering/                  # Plugin Dithering
+    │   └── ai_generator/               # Plugin Générateur IA
+    │
+    ├── resources/                      # Ressources
+    ├── docs/                           # Documentation
+    └── tests/                          # Tests unitaires
 
 ## Création d'un plugin
 
