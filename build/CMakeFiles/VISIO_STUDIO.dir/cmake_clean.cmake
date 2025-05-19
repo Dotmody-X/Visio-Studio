@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/VISIO_STUDIO_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/VISIO_STUDIO_autogen.dir/ParseCache.txt"
+  "VISIO_STUDIO_autogen"
+  "CMakeFiles/VISIO_STUDIO.dir/VISIO_STUDIO_autogen/3YJK5W5UP7/qrc_resources.cpp.o"
+  "CMakeFiles/VISIO_STUDIO.dir/VISIO_STUDIO_autogen/3YJK5W5UP7/qrc_resources.cpp.o.d"
+  "CMakeFiles/VISIO_STUDIO.dir/VISIO_STUDIO_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/VISIO_STUDIO.dir/VISIO_STUDIO_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/VISIO_STUDIO.dir/src/ai/generator.cpp.o"
+  "CMakeFiles/VISIO_STUDIO.dir/src/ai/generator.cpp.o.d"
+  "CMakeFiles/VISIO_STUDIO.dir/src/core/engine.cpp.o"
+  "CMakeFiles/VISIO_STUDIO.dir/src/core/engine.cpp.o.d"
+  "CMakeFiles/VISIO_STUDIO.dir/src/core/project.cpp.o"
+  "CMakeFiles/VISIO_STUDIO.dir/src/core/project.cpp.o.d"
+  "CMakeFiles/VISIO_STUDIO.dir/src/effects/basic/basic.cpp.o"
+  "CMakeFiles/VISIO_STUDIO.dir/src/effects/basic/basic.cpp.o.d"
+  "CMakeFiles/VISIO_STUDIO.dir/src/effects/dithering/dithering.cpp.o"
+  "CMakeFiles/VISIO_STUDIO.dir/src/effects/dithering/dithering.cpp.o.d"
+  "CMakeFiles/VISIO_STUDIO.dir/src/effects/glitch/glitch.cpp.o"
+  "CMakeFiles/VISIO_STUDIO.dir/src/effects/glitch/glitch.cpp.o.d"
+  "CMakeFiles/VISIO_STUDIO.dir/src/gui/canvas.cpp.o"
+  "CMakeFiles/VISIO_STUDIO.dir/src/gui/canvas.cpp.o.d"
+  "CMakeFiles/VISIO_STUDIO.dir/src/gui/mainwindow.cpp.o"
+  "CMakeFiles/VISIO_STUDIO.dir/src/gui/mainwindow.cpp.o.d"
+  "CMakeFiles/VISIO_STUDIO.dir/src/gui/mixer.cpp.o"
+  "CMakeFiles/VISIO_STUDIO.dir/src/gui/mixer.cpp.o.d"
+  "CMakeFiles/VISIO_STUDIO.dir/src/main.cpp.o"
+  "CMakeFiles/VISIO_STUDIO.dir/src/main.cpp.o.d"
+  "CMakeFiles/VISIO_STUDIO.dir/src/plugins/baseplugin.cpp.o"
+  "CMakeFiles/VISIO_STUDIO.dir/src/plugins/baseplugin.cpp.o.d"
+  "CMakeFiles/VISIO_STUDIO.dir/src/plugins/pluginmanager.cpp.o"
+  "CMakeFiles/VISIO_STUDIO.dir/src/plugins/pluginmanager.cpp.o.d"
+  "VISIO_STUDIO"
+  "VISIO_STUDIO.pdb"
+  "VISIO_STUDIO_autogen/3YJK5W5UP7/qrc_resources.cpp"
+  "VISIO_STUDIO_autogen/mocs_compilation.cpp"
+  "VISIO_STUDIO_autogen/timestamp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/VISIO_STUDIO.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

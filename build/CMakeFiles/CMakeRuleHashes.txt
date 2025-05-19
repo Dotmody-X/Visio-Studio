@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+d364c5229a9be27679e9652f5d00a71f VISIO_STUDIO_autogen/3YJK5W5UP7/qrc_resources.cpp
+a976f85a6c9a1b6dee7fca038674f145 VISIO_STUDIO_autogen/timestamp
