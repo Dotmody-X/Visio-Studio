@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>styles/main.qss</file>
+        <!-- Les icônes et autres ressources seront ajoutées ultérieurement -->
+    </qresource>
+</RCC>

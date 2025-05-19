@@ -1,0 +1,159 @@
+/* Thème inspiré de FL Studio avec des accents pour le monde électro */
+
+/* Variables de couleurs */
+/*
+ * Fond principal: #212121 (gris foncé)
+ * Éléments d'interface: #2D2D30 (gris légèrement plus clair)
+ * Texte: #F5F5F5 (gris très clair)
+ * Accent primaire: #00FFFF (cyan électrique)
+ * Accent secondaire: #FF00FF (magenta)
+ * Autres accents: #FFFF00 (jaune néon), #CCFF00 (vert acide)
+ */
+
+/* Style global */
+QWidget {
+    background-color: #212121;
+    color: #F5F5F5;
+    font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+/* Barre de titre et menus */
+QMenuBar {
+    background-color: #1A1A1A;
+    border-bottom: 1px solid #333333;
+}
+
+QMenuBar::item {
+    background: transparent;
+    padding: 4px 10px;
+}
+
+QMenuBar::item:selected {
+    background-color: #333333;
+    color: #00FFFF;
+}
+
+QMenu {
+    background-color: #2D2D30;
+    border: 1px solid #444444;
+}
+
+QMenu::item {
+    padding: 5px 20px 5px 20px;
+}
+
+QMenu::item:selected {
+    background-color: #3D3D3D;
+    color: #00FFFF;
+}
+
+/* Boutons */
+QPushButton {
+    background-color: #2D2D30;
+    border: 1px solid #444444;
+    border-radius: 3px;
+    padding: 5px 15px;
+    color: #F5F5F5;
+}
+
+QPushButton:hover {
+    background-color: #3D3D3D;
+    border-color: #00FFFF;
+}
+
+QPushButton:pressed {
+    background-color: #1A1A1A;
+}
+
+/* Sliders - Essentiels pour les contrôles d'effet inspirés de FL Studio */
+QSlider::groove:horizontal {
+    height: 8px;
+    background: #2D2D30;
+    border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+    background: #00FFFF;
+    width: 16px;
+    margin: -4px 0;
+    border-radius: 8px;
+}
+
+QSlider::sub-page:horizontal {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #FF00FF, stop:1 #00FFFF);
+    border-radius: 4px;
+}
+
+/* Zones de texte */
+QLineEdit, QTextEdit {
+    background-color: #2D2D30;
+    border: 1px solid #444444;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+/* Onglets - Pour la chaîne d'effets et la gestion des plugins */
+QTabWidget::pane {
+    border: 1px solid #444444;
+    background-color: #2D2D30;
+}
+
+QTabBar::tab {
+    background-color: #1A1A1A;
+    border: 1px solid #444444;
+    padding: 6px 12px;
+    margin-right: 2px;
+}
+
+QTabBar::tab:selected {
+    background-color: #2D2D30;
+    border-bottom-color: #00FFFF;
+}
+
+QTabBar::tab:hover {
+    background-color: #3D3D3D;
+}
+
+/* Barres de défilement */
+QScrollBar:vertical {
+    background-color: #2D2D30;
+    width: 12px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #444444;
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #00FFFF;
+}
+
+/* Zone de travail principale (Canvas) */
+#canvasView {
+    background-color: #1A1A1A;
+    border: 1px solid #444444;
+}
+
+/* Mixer/Chaîne d'effets (style FL Studio) */
+#mixerPanel {
+    background-color: #2D2D30;
+    border-top: 2px solid #00FFFF;
+}
+
+.effectSlot {
+    background-color: #333333;
+    border: 1px solid #444444;
+    border-radius: 3px;
+}
+
+.effectSlot:hover {
+    border-color: #00FFFF;
+}
+
+/* Style spécifique pour les plugins actifs dans la chaîne */
+.activePlugin {
+    border-left: 3px solid #00FFFF;
+}
