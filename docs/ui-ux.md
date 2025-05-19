@@ -2,7 +2,7 @@
 
 Ce document détaille l'approche UI/UX pour VISIO STUDIO, un logiciel de création graphique modulaire inspiré par FL Studio et adapté aux besoins des designers graphiques spécialisés dans l'univers électro.
 
-## 📝 Principes directeurs
+## Principes directeurs
 
 ### Philosophie d'interface
 - **Modulaire mais cohérent** - Chaque plugin a sa propre personnalité tout en maintenant une cohérence globale
@@ -16,7 +16,7 @@ Ce document détaille l'approche UI/UX pour VISIO STUDIO, un logiciel de créati
 - Esthétique des logiciels de design contemporains
 - Codes visuels de la scène électronique (néon, glitch, cyberpunk, minimalisme)
 
-## 🖥️ Structure de l'interface principale
+## Structure de l'interface principale
 
 ### Zone de travail centrale
 - Affichage en temps réel de l'image en cours de traitement
@@ -71,7 +71,7 @@ Ce document détaille l'approche UI/UX pour VISIO STUDIO, un logiciel de créati
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-## 🧩 Interface des plugins
+## Interface des plugins
 
 Chaque plugin possède sa propre fenêtre avec une interface unique mais qui respecte certaines conventions.
 
@@ -136,7 +136,7 @@ Chaque plugin possède sa propre fenêtre avec une interface unique mais qui res
 └─────────────────────────────────────────────┘
 ```
 
-## 🖲️ Interactions et contrôles
+## Interactions et contrôles
 
 ### Méthodes d'interaction
 - **Souris** : Actions principales et précises
@@ -170,7 +170,7 @@ Chaque plugin possède sa propre fenêtre avec une interface unique mais qui res
 | Désactiver/activer plugin | Espace (sur plugin sélectionné) |
 | Prévisualisation rapide | Maintenir Espace |
 
-## 🎨 Stratégie visuelle et identité
+## Stratégie visuelle et identité
 
 ### Palette de couleurs de l'interface principale
 - **Fond** : Gris foncé neutre (#212121)
@@ -191,7 +191,7 @@ Chaque plugin possède sa propre fenêtre avec une interface unique mais qui res
 - Variations d'état (actif, inactif, survolé)
 - Set complet pour toutes les fonctions principales
 
-## 📱 Responsive et multi-plateforme
+## Responsive et multi-plateforme
 
 ### Adaptation aux différentes résolutions
 - Interface redimensionnable avec zones de travail ajustables
@@ -205,7 +205,7 @@ Chaque plugin possède sa propre fenêtre avec une interface unique mais qui res
 - Linux (version ultérieure)
 - Considérations pour interface tactile (future évolution)
 
-## 🚀 Onboarding et apprentissage
+## Onboarding et apprentissage
 
 ### Première utilisation
 - Tutoriel interactif de bienvenue
@@ -225,7 +225,7 @@ Chaque plugin possède sa propre fenêtre avec une interface unique mais qui res
 - Mémorisation des habitudes de travail
 - Suggestions d'optimisation du workflow
 
-## 🧪 Tests et validation
+## Tests et validation
 
 ### Méthodologie de test UI/UX
 - Tests d'utilisabilité avec des graphistes de différents niveaux
@@ -239,7 +239,7 @@ Chaque plugin possède sa propre fenêtre avec une interface unique mais qui res
 - Taux d'utilisation des différentes fonctionnalités
 - Temps passé à chercher vs temps passé à créer
 
-## 🌟 Points d'innovation UI/UX
+## Points d'innovation UI/UX
 
 ### Chaîne d'effets visuelle
 Inspirée des DAW comme FL Studio, permettant de:
@@ -266,7 +266,7 @@ Inspirée des DAW comme FL Studio, permettant de:
 - Apprentissage des préférences utilisateur
 - Formulation en langage naturel des transformations
 
-## 📈 Roadmap UI/UX
+## Roadmap UI/UX
 
 ### Phase 1: MVP (Minimum Viable Product)
 - Interface principale avec zones essentielles
